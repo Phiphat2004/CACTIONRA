@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // Layout components
 import { Header } from './components/layout/Header.jsx';
 import { Footer } from './components/layout/Footer.jsx';
@@ -13,10 +14,14 @@ import { Gallery } from './components/sections/Gallery.jsx';
 import { TeamVision } from './components/sections/TeamVision.jsx';
 import { CTA } from './components/sections/CTA.jsx';
 
+// Pages
+import { PrivacyPolicy } from './pages/PrivacyPolicy.jsx';
+import { TermsOfService } from './pages/TermsOfService.jsx';
+
 // Widget components
 import { ChatWidget } from './components/widgets/ChatWidget.jsx';
 
-export default function App() {
+const HomePage = () => {
   return (
     <div className="min-h-screen bg-[#F5F5F2] font-sans text-[#5A4633] selection:bg-[#3D7D4E] selection:text-white">
       {/* Background decoration elements */}
@@ -39,8 +44,20 @@ export default function App() {
       </main>
 
       <Footer />
-      <ChatWidget />
+      {/* <ChatWidget /> */}
     </div>
+  );
+};
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/terms" element={<TermsOfService />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

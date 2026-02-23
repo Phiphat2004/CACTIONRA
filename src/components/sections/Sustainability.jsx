@@ -14,7 +14,7 @@ export const Sustainability = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl lg:text-5xl font-bold text-[#5A4633] mb-12">
-              Sustainable by Nature
+              Bền vững từ tự nhiên
             </h2>
             
             <div className="space-y-12">
@@ -60,7 +60,7 @@ export const Sustainability = () => {
             <div className="rounded-[32px] overflow-hidden aspect-[4/5] relative z-10">
               <ImageWithFallback 
                 src="https://images.unsplash.com/photo-1762893996953-b2f403a03f32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNlcnQlMjBsYW5kc2NhcGUlMjBzb2Z0JTIwbGlnaHRpbmclMjBtb3JuaW5nfGVufDF8fHx8MTc2OTUxMDAwOXww" 
-                alt="Desert landscape"
+                alt="Cảnh quan sa mạc"
                 className="w-full h-full object-cover"
               />
             </div>
