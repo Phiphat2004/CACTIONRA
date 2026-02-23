@@ -18,7 +18,7 @@ const steps = [
   },
   {
     icon: Sparkles,
-    title: "Bio-processing",
+    title: "Xử lý sinh học",
     description: "Chế biến sinh học thành da cao cấp"
   }
 ];

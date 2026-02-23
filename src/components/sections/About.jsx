@@ -30,7 +30,7 @@ export const About = () => {
             >
               <ImageWithFallback 
                 src="https://images.unsplash.com/photo-1722407348192-a44ce83704da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzdXN0YWluYWJsZSUyMG1hdGVyaWFsJTIwbGFib3JhdG9yeSUyMW5zY2llbmNlfGVufDF8fHx8MTc2OTUxMDAwOXww" 
-                alt="Material science"
+                alt="Khoa học vật liệu"
                 className="w-full h-full object-cover"
               />
             </motion.div>

@@ -23,7 +23,7 @@ export const TeamVision = () => {
               <div className="w-16 h-16 rounded-full bg-[#E8DCC3]/20 border border-white/20" />
               <div>
                 <p className="font-bold text-lg">Đội ngũ Cactiora</p>
-                <p className="text-white/70">Pioneering Sustainable Materials</p>
+                <p className="text-white/70">Tiên phong Vật liệu Bền vững</p>
               </div>
             </div>
           </motion.div>

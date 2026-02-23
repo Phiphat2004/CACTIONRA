@@ -16,14 +16,14 @@ export const Hero = () => {
           <div className="flex items-center gap-4 mb-6">
             <Mascot className="w-16 h-16" />
             <span className="px-4 py-1 bg-[#E8DCC3] text-[#5A4633] rounded-full text-xs font-semibold tracking-wider uppercase">
-              Innovation & Nature
+              Đổi mới & Tự nhiên
             </span>
           </div>
           <h1 className="text-5xl lg:text-7xl font-bold text-[#5A4633] leading-tight mb-6">
             Da sinh học từ <span className="text-[#3D7D4E]">cây xương rồng</span> – Vật liệu xanh cho tương lai
           </h1>
           <p className="text-lg lg:text-xl text-[#5A4633]/80 mb-10 max-w-xl">
-            A sustainable, vegan, bio-based leather solution that respects our planet while providing premium quality for the world of tomorrow.
+            Giải pháp da sinh học bền vững, thuần chay, tôn trọng hành tinh của chúng ta đồng thời cung cấp chất lượng cao cấp cho thế giới tương lai.
           </p>
           <div className="flex flex-wrap gap-4">
             <button className="px-8 py-4 bg-[#3D7D4E] text-white rounded-[20px] font-semibold hover:bg-[#3D7D4E]/90 transition-all shadow-lg shadow-[#3D7D4E]/10">
@@ -41,7 +41,7 @@ export const Hero = () => {
         >
           <img 
             src="https://images.unsplash.com/photo-1758927837563-e221ef47a951?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYWN0dXMlMjBsZWFmJTIwbWFjcm8lMjB0ZXh0dXJlfGVufDF8fHx8MTc2OTUxMDAwOXww&ixlib=rb-4.1.0&q=80&w=1080" 
-            alt="Cactus texture"
+            alt="Kết cấu xương rồng"
             className="w-full h-full object-cover opacity-90 mix-blend-multiply"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#E8DCC3]/40 to-transparent" />
