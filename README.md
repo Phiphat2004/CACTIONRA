@@ -1,7 +1,7 @@
 
-  # Cactiora Homepage Design
+  # Cactiora Homepage
 
-  This is a code bundle for Cactiora Homepage Design. The original project is available at https://www.figma.com/design/ZwstIh6qq8pknA37BjxjeF/Cactiora-Homepage-Design.
+  This is a code bundle for Cactiora Homepage. The original project is available at https://www.figma.com/design/ZwstIh6qq8pknA37BjxjeF/Cactiora-Homepage.
 
   ## Running the code
 
