@@ -16,7 +16,7 @@ export const Header = () => {
         <div className="flex items-center gap-3">
           <div className="w-16 h-16 flex items-center justify-center rounded-full overflow-hidden">
             <img 
-              src="/public/img/avatar.jpg"
+              src="/img/avatar.jpg"
               alt="Cactora Logo" 
               className="w-full h-full object-cover"
             />
