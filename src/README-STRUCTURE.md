@@ -102,3 +102,4 @@ Các component UI cơ bản (buttons, cards, modals...) từ shadcn/ui
 - **Text chính**: `#5A4633` (Nâu đất)
 - **Accent**: `#3D7D4E` (Xanh lá tự nhiên)
 - **Secondary**: `#E8DCC3` (Be ấm)
+    
