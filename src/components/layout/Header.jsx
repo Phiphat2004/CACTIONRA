@@ -7,7 +7,7 @@ export const Header = () => {
     { name: 'Quy trình', href: '#process' },
     { name: 'Ứng dụng', href: '#gallery' },
     { name: 'Bền vững', href: '#sustainability' },
-    { name: 'Liên hệ', href: 'https://www.facebook.com/profile.php?id=61587132959901', external: true },
+    { name: 'Liên hệ', href: '#contact' },
   ];
 
   return (
@@ -29,8 +29,6 @@ export const Header = () => {
             <a
               key={item.name}
               href={item.href}
-              target={item.external ? '_blank' : undefined}
-              rel={item.external ? 'noopener noreferrer' : undefined}
               className="text-sm font-medium text-[#5A4633] hover:text-[#3D7D4E] transition-colors"
             >
               {item.name}

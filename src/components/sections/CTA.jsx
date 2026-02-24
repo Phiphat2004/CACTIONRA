@@ -18,9 +18,14 @@ export const CTA = () => {
           <p className="text-lg lg:text-xl text-[#5A4633]/70 mb-10 max-w-2xl mx-auto">
             Liên hệ để tìm hiểu thêm về dự án và hợp tác phát triển vật liệu bền vững cho thương hiệu của bạn.
           </p>
-          <button className="px-10 py-5 bg-[#3D7D4E] text-white rounded-[20px] font-bold text-lg hover:bg-[#3D7D4E]/90 transition-all shadow-xl shadow-[#3D7D4E]/20">
+          <a 
+            href="https://www.facebook.com/profile.php?id=61587132959901"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-10 py-5 bg-[#3D7D4E] text-white rounded-[20px] font-bold text-lg hover:bg-[#3D7D4E]/90 transition-all shadow-xl shadow-[#3D7D4E]/20"
+          >
             Liên hệ hợp tác
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>

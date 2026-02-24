@@ -1,4 +1,3 @@
-import { Button } from './ui/button.jsx';
 import { ArrowRight } from 'lucide-react';
 
 export function CTASection() {
@@ -24,13 +23,15 @@ export function CTASection() {
           Chúng tôi luôn sẵn sàng chia sẻ và đồng hành cùng các đối tác có chung tầm nhìn.
         </p>
 
-        <Button
-          size="lg"
-          className="bg-white text-[#3D7D4E] hover:bg-[#F5F5F2] rounded-full px-8 py-6 shadow-xl group"
+        <a
+          href="https://www.facebook.com/profile.php?id=61587132959901"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center bg-white text-[#3D7D4E] hover:bg-[#F5F5F2] rounded-full px-8 py-4 shadow-xl group font-medium"
         >
           Liên hệ hợp tác
           <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-        </Button>
+        </a>
       </div>
     </section>
   );
